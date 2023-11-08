@@ -1,0 +1,16 @@
+{
+	"name": "SQLserver",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=FT790-LAP\\ABC;initial catalog=salesdata;user id=sa",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIzYzY1NjY1NS00MDIzLTRlOGUtODJhMS1iNjE1NTI3MDdjZDkiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
